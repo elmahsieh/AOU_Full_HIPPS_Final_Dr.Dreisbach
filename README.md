@@ -29,7 +29,7 @@ Open the workbook “Full_HIPPS_Episodes.ipynb”.
 
 Run the single, master notebook “Full_HIPPS_Episodes.ipynb”. 
 
-Full dataset of pregnancy epsiodes & datasets for trimester information will be saved as .csv files in your directory.
+Full dataset of pregnancy episodes & datasets for trimester information will be saved as .csv files in your directory.
 
 ## Description of Files
 In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb file) for users who want to identify pregnancy episodes from the All of Us Research Program.
@@ -123,7 +123,8 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 
 • `Data_Dictionary_New.xlsx` contains descriptions for each column head.
 
-## Understanding Outcome Concordance Score
+## Notes on Full HIPPS Episodes Dataset (HIPPS_Pregnancy_Episode.csv)
+### Understanding Outcome Concordance Score
 
 Derived from Jones, et al.’s *Who is Pregnant?* research paper. 
 
@@ -134,6 +135,20 @@ Score ranges from 0~2:
 • 1 = partial concordance (either outcome/timing or gestational plausibility aligns)
 
 • 2 = strong concordance (both align)
+
+### Datatime showing as 00:00.0
+
+This happens because:
+
+• When we save from Pandas (.to_csv()), datetime objects are written as full ISO-like timestamps (date + time).
+
+• Since the data only had dates (no real time component), Pandas defaulted to 00:00.0.
+
+• Excel reads it literally and labels the column as “General” instead of auto-formatting as a date, so you have to fix it manually.
+
+To view actual YYYY/MM/DD:
+
+• Navigate to 'General' and re-format into 'Short Date'.
 
 ## Simple Flow Chart
 <img width="911" height="536" alt="Image" src="https://github.com/user-attachments/assets/e79e764f-dd8c-40b4-88e7-fa050cf6c01a" />
