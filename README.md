@@ -132,7 +132,7 @@ Score ranges from 0~2:
 • License describes the terms under which the software and associated documentation files are distributed
 
 ## Simple Flow Chart
-<img width="911" height="536" alt="Image" src="https://github.com/user-attachments/assets/e79e764f-dd8c-40b4-88e7-fa050cf6c01a" />
+<img width="911" height="536" alt="Image" src="https://github.com/user-attachments/assets/dbb7c37d-53eb-4028-87c8-2fd557d8621a" />
 
 ## References
 
