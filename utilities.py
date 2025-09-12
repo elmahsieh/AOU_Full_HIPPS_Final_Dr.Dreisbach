@@ -9,7 +9,7 @@ trimester summaries, parity, delivery method, and concordance scores.
 
 '''
 
-# Label visit events with trimester based on HIP-derived gestational episodes
+# Label visit events based on trimester
 def label_trimester_events(episodes_df, visit_table):
     # Ensure datetime types
     episodes_df['estimated_start_date'] = pd.to_datetime(episodes_df['estimated_start_date'])
