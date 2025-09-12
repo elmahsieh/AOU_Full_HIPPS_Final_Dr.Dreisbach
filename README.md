@@ -66,9 +66,9 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 
 ## Expected Output Files
 
-**Extracted Trimester Data:**
+**1. Extracted Trimester Data:**
 
-*1. trimester_events:*
+*a. trimester_events:*
 
 *• Granularity: One row per individual clinical event (not aggregated)*
 
@@ -76,7 +76,7 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 
 *• Ex: Clinical event during which trimester*
 
-*2. trimester_summary:*
+*b. trimester_summary:*
 
 *• Granularity: One row per person–episode, aggregated by trimester*
 
@@ -84,7 +84,7 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 
 *• Ex: In each episode, how many clinical events per trimester*
     
-*3. trimester_event_details:*
+*c. trimester_event_details:*
 
 *• Granularity: One row per concept per trimester per episode*
 
@@ -104,7 +104,7 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 
 • `PPS_Trimester_Event_Details.csv`
 
-**Extracted Full HIPPS Data**
+**2. Extracted Full HIPPS Data**
 
 *Contains a comprehensive overview of pregnancy episodes.*
 
