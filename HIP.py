@@ -884,7 +884,7 @@ def main(concept_file,outcome_file,durations_file):
     
     # Save HIP trimester information to CSV
     HIP_trimester_events.to_csv(f"HIP_Trimester_Events.csv", index=False)
-    HIP_trimester_summary.to_csv(f"HIP_Trimester_Summary", index=False)
+    HIP_trimester_summary.to_csv(f"HIP_Trimester_Summary.csv", index=False)
     HIP_trimester_event_details.to_csv(f"HIP_Trimester_Event_Details.csv", index=False)
 
     return final_episodes_w_length, HIP_trimester_events, HIP_trimester_summary, HIP_trimester_event_details
