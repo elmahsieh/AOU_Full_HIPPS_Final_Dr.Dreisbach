@@ -110,15 +110,6 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 
 • `HIPPS_Pregnancy_Episodes.csv` 
 
-## Data Dictionary for Final Output CSV File
-• `Data Dictionary_New.csv` contains description for each column head.
-
-## Instruction and license files:
-
-• README shows specific steps how to identify comprehensive information on pregnancy episodes among people whose sex assigned as “female” at birth.
-
-• License describes the terms under which the software and associated documentation files are distributed
-
 ## Understanding Outcome Concordance Score
 
 Derived from Jones, et al.’s *Who is Pregnant?* research paper. 
@@ -130,6 +121,15 @@ Score ranges from 0~2:
 • 1 = partial concordance (either outcome/timing or gestational plausibility aligns)
 
 • 2 = strong concordance (both align)
+
+## Data Dictionary for Final Output CSV File
+• `Data Dictionary_New.csv` contains description for each column head.
+
+## Instruction and license files:
+
+• README shows specific steps how to identify comprehensive information on pregnancy episodes among people whose sex assigned as “female” at birth.
+
+• License describes the terms under which the software and associated documentation files are distributed
 
 ## Simple Flow Chart
 <img width="911" height="536" alt="Image" src="https://github.com/user-attachments/assets/e79e764f-dd8c-40b4-88e7-fa050cf6c01a" />
