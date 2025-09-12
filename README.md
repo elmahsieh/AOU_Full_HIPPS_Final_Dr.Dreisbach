@@ -119,9 +119,7 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 
 • License describes the terms under which the software and associated documentation files are distributed
 
-
-## Notes on Full HIPPS Episodes Dataset (HIPPS_Pregnancy_Episode.csv)
-### Understanding Outcome Concordance Score
+## Understanding Outcome Concordance Score
 
 Derived from Jones, et al.’s *Who is Pregnant?* research paper. 
 
