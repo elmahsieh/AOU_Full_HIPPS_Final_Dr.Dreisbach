@@ -1,5 +1,4 @@
 
-
 import HIP
 import PPS
 import HIP_PPS_Merge
@@ -28,5 +27,6 @@ def main(HIP_concept_file,outcome_limits_file, term_durations_file, PPS_concept_
                              )
         
     final_episodes = utilities.calculate_concordance_score(final_episodes)
+    
     
     return final_episodes
