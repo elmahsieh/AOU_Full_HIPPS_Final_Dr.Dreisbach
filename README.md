@@ -111,7 +111,7 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 • `HIPPS_Pregnancy_Episodes.csv` 
 
 ## Data Dictionary for Final Output CSV File
-• `Data Dictionary_New.csv`
+• `Data Dictionary_New.csv` contains description for each column head.
 
 ## Instruction and license files:
 
@@ -119,9 +119,6 @@ In this repository, we provide 10 files (5 .csv files, 6 .py files, 1 .ipynb fil
 
 • License describes the terms under which the software and associated documentation files are distributed
 
-## Data dictionaries for the final output CSV file
-
-• `Data_Dictionary_New.xlsx` contains descriptions for each column head.
 
 ## Notes on Full HIPPS Episodes Dataset (HIPPS_Pregnancy_Episode.csv)
 ### Understanding Outcome Concordance Score
@@ -135,20 +132,6 @@ Score ranges from 0~2:
 • 1 = partial concordance (either outcome/timing or gestational plausibility aligns)
 
 • 2 = strong concordance (both align)
-
-### Datatime showing as 00:00.0
-
-This happens because:
-
-• When we save from Pandas (.to_csv()), datetime objects are written as full ISO-like timestamps (date + time).
-
-• Since the data only had dates (no real time component), Pandas defaulted to 00:00.0.
-
-• Excel reads it literally and labels the column as “General” instead of auto-formatting as a date, so you have to fix it manually.
-
-To view actual YYYY/MM/DD:
-
-• Navigate to 'General' and re-format into 'Short Date'.
 
 ## Simple Flow Chart
 <img width="911" height="536" alt="Image" src="https://github.com/user-attachments/assets/e79e764f-dd8c-40b4-88e7-fa050cf6c01a" />
