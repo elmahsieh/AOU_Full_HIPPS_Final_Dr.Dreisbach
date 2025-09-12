@@ -642,7 +642,7 @@ def clean_episodes(episodes_w_gest,buffer_days=28):
 
 
     return neg_days
-    
+
 
 # Finds episodes that overlap or occur too quickly in succession and removes excess
 
